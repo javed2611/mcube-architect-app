@@ -1,0 +1,3 @@
+import { Component } from '@angular/core';
+@Component({ selector: 'app-studio', standalone: true, template: `<section class="statement" id="studio"><p class="eyebrow">Our point of view</p><h2>Good architecture doesn't ask for attention.<br><em>It gives attention—to the way you live.</em></h2><div class="statement-bottom"><p>Mcube Architects &amp; Consultants is an independent architecture practice shaping homes, hospitality and workspaces across India.</p><button class="round-arrow" (click)="scrollTo('contact')" aria-label="Start a project">↘</button></div></section>`, styleUrl: './app.component.scss' })
+export class StudioComponent { scrollTo(id: string) { document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }); } }
