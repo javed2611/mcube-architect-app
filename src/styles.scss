@@ -1,1 +1,19 @@
-* { box-sizing: border-box; } html { scroll-behavior:smooth; } body { margin:0; background:#f5f2eb; color:#292925; font-family:Inter, "Segoe UI", Arial, sans-serif; } ::selection { background:#b45a36; color:#fff; }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f5f2eb;
+  color: #292925;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+::selection {
+  background: #b45a36;
+  color: #fff;
+}

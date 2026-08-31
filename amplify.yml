@@ -9,7 +9,7 @@ frontend:
       commands:
         - pnpm build
   artifacts:
-    baseDirectory: dist/mcube-architects-consultants
+    baseDirectory: dist/mcube-architects-consultants/browser
     files:
       - '**/*'
   cache:
